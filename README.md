@@ -4,7 +4,7 @@ A JavaScript library to easily create stacked bar charts.
 
 ## Usage
 
-Make sure to include the following links within your HTML document:
+Place the stackedBar.css and stackedBar.js in the same directory as your HTML document. Make sure to include the following links within your HTML document:
 
 ```html
 <link rel="stylesheet" type="text/css" href="stackedBar.css">
