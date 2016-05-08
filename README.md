@@ -48,4 +48,4 @@ As you can see, we access the specific elements within our JSON file to populate
 
 \# param1(number)
 
-> This number (between 0 and 1) indicates the width of our bars. A value of 1 means that our bars will be the maximum width and will be touching. A value of 0.5 means our bars will have space between them equal to the width of our bar. A value of 0 (not recommended) means the width of the bars will be 0 and not be able to be seen.
+> This number (between 0 and 1.09) indicates the width of our bars. A value of 1.09 means that our bars will be the maximum width and will be touching. A value of 0.5 means our bars will have space between them slightly greater than the width of each bar. A value of 0 (not recommended) means the width of the bars will be 0 and not be able to be seen. 
