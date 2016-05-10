@@ -1,4 +1,4 @@
-# StackedBar.js API Reference
+# stackedBar.js API Reference
 
 A JavaScript library to easily create stacked bar charts.
 
