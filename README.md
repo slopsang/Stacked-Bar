@@ -79,7 +79,7 @@ var dataSet = [];
 
 > This number (between 0 and 1.09) indicates the width of our bars. A value of 1.09 means that our bars will be the maximum width and will be touching. A value of 0.5 means our bars will have space between them slightly greater than the width of each bar. A value of 0 (not recommended) means the width of the bars will be 0 and not be able to be seen. The default value is 1.
 
-\# 3. binNames('value')
+\# 3. binNames('string')
 
 > This sets what is displayed on the labels on the x axis to represent each bin. The possible values are 'default', 'numbers', 'combo', and 'blank'. Default (you do not need to type 'default', you can use any value that isn't one of the other three) means that only text from the name field of our dataset will be displayed. Numbers mean only the index of that bin will be displayed. Combo means that numbers and text will be displayed (The first label will be "1: Alabama" if the name field is "Alabama"). Blank means that there will be no labels for each bin.
 
@@ -87,7 +87,7 @@ var dataSet = [];
 
 > This sets the changed opacity of a bar when we hover over it. This can range from 0 to 1. The default a value is 0.5. A value of 1 means that the bars will not change on hovering, a value of 0 means that they will disappear completely while we put our mouse over them. The lower the number the more transparent the bar will become.
 
-\# 5. startPos('value')
+\# 5. startPos('string')
 
 > This sets the default layout, whether the bars are stacked or grouped. The values can be 'grouped' (default) or 'stacked'.
 
