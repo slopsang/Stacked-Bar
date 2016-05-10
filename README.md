@@ -18,7 +18,7 @@ You must also include the following HTML elements within your body:
 <div id='my-div'>
   <form>
     <label><input type="radio" name="mode" value="grouped"> Grouped</label>
-    <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+    <label><input id="userRead" type="radio" name="mode" value="stacked" checked> Stacked</label>
   </form>
 </div>
 ```
