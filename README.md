@@ -12,6 +12,17 @@ Place the stackedBar.css and stackedBar.js in the same directory as your HTML do
 <script src="/stackedBar.js"></script>
 ```
 
+You must also include the following HTML elements within your body:
+
+```html
+<div id='my-div'>
+  <form>
+    <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+    <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+  </form>
+</div>
+```
+
 To create the stacked bar chart, you can call it like this:
 
 ```javascript
@@ -26,17 +37,6 @@ var chartWrapper = d3.select('#my-div')
 ```
 
 If you don't specify the parameters they will simply be set to their default values.
-
-You must also include the following HTML elements within your body:
-
-```html
-<div id='my-div'>
-    <form>
-      <label><input type="radio" name="mode" value="grouped"> Grouped</label>
-      <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
-    </form>
-  </div>
-```
 
 ## Preparing the Dataset
 
