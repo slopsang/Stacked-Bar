@@ -89,3 +89,8 @@ var dataSet = [];
 \# 5. startPos('value')
 
 > This sets the default layout, whether the bars are stacked or grouped. The values can be 'grouped' (default) or 'stacked'.
+
+\# 6. showData(boolean)
+
+> This determines whether or not the numerical values are shown at the top when layers are hovered over. True (default) means that the Stacked Height and Layer Value will be shown, false means that no values will be shown.
+
