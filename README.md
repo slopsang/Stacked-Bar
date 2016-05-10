@@ -95,3 +95,4 @@ var dataSet = [];
 
 > This determines whether or not the numerical values are shown at the top when layers are hovered over. True (default) means that the Stacked Height and Layer Value will be shown, false means that no values will be shown.
 
+Credit to Mike Bostock, his example upon which this chart is based on can be found here: http://bl.ocks.org/mbostock/3943967
