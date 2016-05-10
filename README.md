@@ -27,6 +27,17 @@ var chartWrapper = d3.select('#my-div')
 
 If you don't specify the parameters they will simply be set to their default values.
 
+You must also include the following HTML elements within your body:
+
+```html
+<div id='my-div'>
+    <form>
+      <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+      <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+    </form>
+  </div>
+```
+
 ## Preparing the Dataset
 
 It will likely be necessary to preprocess your dataset from whatever format it is in (JSON in the example below). Make sure that the dataset passed into the function is an array where the length of the array is equal to the number of samples (bins) that will be represented on the x-axis. Within each element of the array, the name field will be the label associated on the x-axis (can just be a number representing the index) and the arr field will be a new array where the length of this array is equal to the number of layers of each bar (this length should be consistent across all samples, and if the value is null it should be set to 0). 
