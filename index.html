@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html en="english">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="stackedBar.css"/> 
+</head>
+
+<body>
+
+	<div id='my-div'>
+	  <form>
+	    <label id="userRead"></label>
+	    <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+	    <label><input id="userRead" type="radio" name="mode" value="stacked" checked> Stacked</label>
+	  </form>
+	</div>
+</body>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="stackedBar.js"></script>
+	<script src="main.js"></script>
+	<script>
+
+	/* main javascript */
+
+	var dataSet = [];
+	    dataSet.push({
+	        name: "Three equal layers",
+	        arr: [30, 30, 30]
+	    })
+	    dataSet.push({
+	        name: "Three unequal layers",
+	        arr: [50, 10, 5]
+	    })
+
+	var myBarChart = chart();
+
+
+	var chartWrapper = d3.select('#my-div')
+	                .datum([dataSet]) 
+	                .call(myBarChart);
+
+	</script>
+
+</html>
